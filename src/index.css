@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./pricedown.otf");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  overflow-x: hidden; /* Prevents horizontal scrollbar from the rotation */
+  width: 100vw;
+}
+
+/* Optional: Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font fallbacks if Helvetica Now Display isn't loaded */
+.font-helvetica {
+  font-family: "Helvetica Now Display", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
