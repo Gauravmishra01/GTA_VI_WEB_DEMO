@@ -3,7 +3,6 @@
 A high-performance, interactive landing page concept for Grand Theft Auto VI. This project demonstrates advanced frontend techniques using **React**, **GSAP (GreenSock)**, and **Tailwind CSS** to create immersive entrance animations and parallax effects.
 
 ![Project Preview](public/ss.png) 
-*(Note: Replace the link above with a screenshot of your actual running project)*
 
 ## ✨ Features
 
